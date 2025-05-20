@@ -1,0 +1,36 @@
+//
+//  Shield.swift
+//  EldenRingWiki
+//
+//  Created by Mauricio Chaves Dias on 20/5/2025.
+//
+
+import Foundation
+
+// MARK: - Shield
+
+struct Shield: Identifiable, Codable {
+    let id: String
+    let name: String
+    let image: String
+    let description: String
+    let attack: [Stat]
+    let defence: [Stat]
+    let scalesWith: [Scaling]
+    let requiredAttributes: [Requirement]
+    let category: String
+    let weight: Double
+}
+
+// MARK: - Shield API Response
+
+struct ShieldResponse: Codable {
+    let success: Bool
+    let count: Int
+    let data: [Shield]
+}
+
+struct SingleShieldResponse: Decodable {
+    let data: Shield?
+}
+

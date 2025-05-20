@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "count": 2,
+  "data": [
+    {
+      "id": "17f69ac4bd0l0i2rc618tsrggfp3kh",
+      "name": "Banished Knight Oleg",
+      "image": "https://eldenring.fanapis.com/images/spirits/17f69ac4bd0l0i2rc618tsrggfp3kh.png",
+      "description": "Ashen remains in which spirits yet dwell. Use to summon the spirit of Oleg, the Banished Knight.",
+      "fpCost": "100",
+      "hpCost": "0",
+      "effect": "Summons Banished Knight Oleg spirit"
+    },
+    {
+      "id": "17f69beb243l0i2rcptdnjy0wl2nxj",
+      "name": "Demi-human Ashes",
+      "image": "https://eldenring.fanapis.com/images/spirits/17f69beb243l0i2rcptdnjy0wl2nxj.png",
+      "description": "Ashen remains in which spirits yet dwell. Use to summon the spirits of five demi-humans.",
+      "fpCost": "69",
+      "hpCost": "0",
+      "effect": "Summons five demi-human spirits"
+    }
+  ]
+}

@@ -29,9 +29,137 @@
 		D5E9D18E2DDC4B9A00729078 /* EldenRingWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EldenRingWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D5E9D1B22DDC4D7F00729078 /* Exceptions for "EldenRingWiki" folder in "EldenRingWiki" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Source/Data/Responses/ammos.json,
+				Source/Data/Responses/ashsofwars.json,
+				Source/Data/Responses/class.json,
+			);
+			target = D5E9D1722DDC4B9800729078 /* EldenRingWiki */;
+		};
+		D5E9D2A42DDC7AD000729078 /* Exceptions for "EldenRingWiki" folder in "EldenRingWikiTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Source/Data/Networks/Services/AmmosService.swift,
+				Source/Data/Networks/Services/ArmorsService.swift,
+				Source/Data/Networks/Services/AshOfWarsService.swift,
+				Source/Data/Networks/Services/BossesService.swift,
+				Source/Data/Networks/Services/CharacterClassesService.swift,
+				Source/Data/Networks/Services/CreaturesService.swift,
+				Source/Data/Networks/Services/IncantationsService.swift,
+				Source/Data/Networks/Services/ItemsService.swift,
+				Source/Data/Networks/Services/LocationsService.swift,
+				Source/Data/Networks/Services/NPCsService.swift,
+				Source/Data/Networks/Services/ShieldsService.swift,
+				Source/Data/Networks/Services/SorceriesService.swift,
+				Source/Data/Networks/Services/SpiritsService.swift,
+				Source/Data/Networks/Services/TalismansService.swift,
+				Source/Data/Networks/Services/WeaponsService.swift,
+				Source/Data/Repositories/AmmosRepository.swift,
+				Source/Data/Repositories/ArmorsRepository.swift,
+				Source/Data/Repositories/AshOfWarsRepository.swift,
+				Source/Data/Repositories/CharacterClassesRepository.swift,
+				Source/Data/Repositories/CreaturesRepository.swift,
+				Source/Data/Repositories/IncantationsRepository.swift,
+				Source/Data/Repositories/ItemsRepository.swift,
+				Source/Data/Repositories/LocationsRepository.swift,
+				Source/Data/Repositories/NPCsRepository.swift,
+				Source/Data/Repositories/ShieldsRepository.swift,
+				Source/Data/Repositories/SorceriesRepository.swift,
+				Source/Data/Repositories/SpiritsRepository.swift,
+				Source/Data/Repositories/TalismansRepository.swift,
+				Source/Data/Repositories/WeaponsRepository.swift,
+				Source/Domain/UseCases/AmmosUseCase.swift,
+				Source/Domain/UseCases/ArmorsUseCase.swift,
+				Source/Domain/UseCases/AshOfWarsUseCase.swift,
+				Source/Domain/UseCases/CharacterClassesUseCase.swift,
+				Source/Domain/UseCases/CreaturesUseCase.swift,
+				Source/Domain/UseCases/IncantationsUseCase.swift,
+				Source/Domain/UseCases/ItemsUseCase.swift,
+				Source/Domain/UseCases/LocationsUseCase.swift,
+				Source/Domain/UseCases/NPCsUseCase.swift,
+				Source/Domain/UseCases/ShieldsUseCase.swift,
+				Source/Domain/UseCases/SorceriesUseCase.swift,
+				Source/Domain/UseCases/SpiritsUseCase.swift,
+				Source/Domain/UseCases/TalismansUseCase.swift,
+				Source/Domain/UseCases/WeaponsUseCase.swift,
+			);
+			target = D5E9D1832DDC4B9A00729078 /* EldenRingWikiTests */;
+		};
+		D5E9D2A52DDC7AD000729078 /* Exceptions for "EldenRingWiki" folder in "EldenRingWikiUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Source/Data/Networks/Services/AmmosService.swift,
+				Source/Data/Networks/Services/ArmorsService.swift,
+				Source/Data/Networks/Services/AshOfWarsService.swift,
+				Source/Data/Networks/Services/BossesService.swift,
+				Source/Data/Networks/Services/CharacterClassesService.swift,
+				Source/Data/Networks/Services/CreaturesService.swift,
+				Source/Data/Networks/Services/IncantationsService.swift,
+				Source/Data/Networks/Services/ItemsService.swift,
+				Source/Data/Networks/Services/LocationsService.swift,
+				Source/Data/Networks/Services/NPCsService.swift,
+				Source/Data/Networks/Services/ShieldsService.swift,
+				Source/Data/Networks/Services/SorceriesService.swift,
+				Source/Data/Networks/Services/SpiritsService.swift,
+				Source/Data/Networks/Services/TalismansService.swift,
+				Source/Data/Networks/Services/WeaponsService.swift,
+				Source/Data/Repositories/AmmosRepository.swift,
+				Source/Data/Repositories/ArmorsRepository.swift,
+				Source/Data/Repositories/AshOfWarsRepository.swift,
+				Source/Data/Repositories/CharacterClassesRepository.swift,
+				Source/Data/Repositories/CreaturesRepository.swift,
+				Source/Data/Repositories/IncantationsRepository.swift,
+				Source/Data/Repositories/ItemsRepository.swift,
+				Source/Data/Repositories/LocationsRepository.swift,
+				Source/Data/Repositories/NPCsRepository.swift,
+				Source/Data/Repositories/ShieldsRepository.swift,
+				Source/Data/Repositories/SorceriesRepository.swift,
+				Source/Data/Repositories/SpiritsRepository.swift,
+				Source/Data/Repositories/TalismansRepository.swift,
+				Source/Data/Repositories/WeaponsRepository.swift,
+				Source/Domain/UseCases/AmmosUseCase.swift,
+				Source/Domain/UseCases/ArmorsUseCase.swift,
+				Source/Domain/UseCases/AshOfWarsUseCase.swift,
+				Source/Domain/UseCases/CharacterClassesUseCase.swift,
+				Source/Domain/UseCases/CreaturesUseCase.swift,
+				Source/Domain/UseCases/IncantationsUseCase.swift,
+				Source/Domain/UseCases/ItemsUseCase.swift,
+				Source/Domain/UseCases/LocationsUseCase.swift,
+				Source/Domain/UseCases/NPCsUseCase.swift,
+				Source/Domain/UseCases/ShieldsUseCase.swift,
+				Source/Domain/UseCases/SorceriesUseCase.swift,
+				Source/Domain/UseCases/SpiritsUseCase.swift,
+				Source/Domain/UseCases/TalismansUseCase.swift,
+				Source/Domain/UseCases/WeaponsUseCase.swift,
+			);
+			target = D5E9D18D2DDC4B9A00729078 /* EldenRingWikiUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		D5E9D1B32DDC4D7F00729078 /* Exceptions for "EldenRingWiki" folder in "Compile Sources" phase from "EldenRingWiki" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = D5E9D16F2DDC4B9800729078 /* Sources */;
+			membershipExceptions = (
+				Source/Data/Responses/ammos.json,
+				Source/Data/Responses/ashsofwars.json,
+				Source/Data/Responses/class.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D5E9D1752DDC4B9800729078 /* EldenRingWiki */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D5E9D1B22DDC4D7F00729078 /* Exceptions for "EldenRingWiki" folder in "EldenRingWiki" target */,
+				D5E9D1B32DDC4D7F00729078 /* Exceptions for "EldenRingWiki" folder in "Compile Sources" phase from "EldenRingWiki" target */,
+				D5E9D2A42DDC7AD000729078 /* Exceptions for "EldenRingWiki" folder in "EldenRingWikiTests" target */,
+				D5E9D2A52DDC7AD000729078 /* Exceptions for "EldenRingWiki" folder in "EldenRingWikiUITests" target */,
+			);
 			path = EldenRingWiki;
 			sourceTree = "<group>";
 		};

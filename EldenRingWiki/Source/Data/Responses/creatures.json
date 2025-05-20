@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "count": 2,
+  "data": [
+    {
+      "id": "17f6a3ceea8l0i6yrr9i9li6sityc",
+      "name": "Arcane Sphere Of Faces",
+      "image": "https://eldenring.fanapis.com/images/creatures/17f6a3ceea8l0i6yrr9i9li6sityc.png",
+      "description": "Safeguard of the Witchbane Ruins' basement cellar. Mysteriously rare and highly unconventional.",
+      "location": "Witchbane Ruins",
+      "drops": [
+        "None"
+      ]
+    },
+    {
+      "id": "17f6a0bda2cl0i6yrtkvf0vjp9puf",
+      "name": "Giant Bat",
+      "image": "https://eldenring.fanapis.com/images/creatures/17f6a0bda2cl0i6yrtkvf0vjp9puf.png",
+      "description": "The Giant Bats of Limgrave are nocturnal creatures and often rest during the day, unless they are disturbed.",
+      "location": "Near the cliffs on Western Limgrave.",
+      "drops": [
+        "Gold Firefly"
+      ]
+    }
+  ]
+}

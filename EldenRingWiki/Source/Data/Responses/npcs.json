@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "count": 2,
+  "data": [
+    {
+      "id": "17f69b266a8l0i2okbqoh1wxlp59l",
+      "name": "Thops",
+      "image": "https://eldenring.fanapis.com/images/npcs/17f69b266a8l0i2okbqoh1wxlp59l.png",
+      "quote": "For a small donation, I'd be happy to share my knowledge.",
+      "location": "Church of Irith in Liurnia of the Lakes",
+      "role": "Sorcery Student"
+    },
+    {
+      "id": "17f698fa9a6l0i2oki2yjnuz5pqjrh",
+      "name": "Enia",
+      "image": "https://eldenring.fanapis.com/images/npcs/17f698fa9a6l0i2oki2yjnuz5pqjrh.png",
+      "quote": "The Fingers guide us all. And you Tarnished, you are here to take, are you not?",
+      "location": "Roundtable Hold",
+      "role": "Finger Reader"
+    }
+  ]
+}

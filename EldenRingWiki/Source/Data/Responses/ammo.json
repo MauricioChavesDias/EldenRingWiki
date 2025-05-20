@@ -1,0 +1,16 @@
+{
+  "id": "17f69448ceel0i0a57bokoqz409yb",
+  "name": "Firebone Arrow",
+  "image": "https://eldenring.fanapis.com/images/ammos/17f69448ceel0i0a57bokoqz409yb.png",
+  "description": "Arrow whittled from animal bones. The tip is set alight before firing",
+  "type": "Pierce",
+  "attackPower": [
+    { "name": "Phy", "amount": 10 },
+    { "name": "Mag", "amount": 0 },
+    { "name": "Fire", "amount": 90 },
+    { "name": "Ligt", "amount": 0 },
+    { "name": "Holy", "amount": 0 },
+    { "name": "Crit", "amount": 100 }
+  ],
+  "passive": "-"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "17f696c7ce7l0hynrwmh6d0r0rwk2",
+  "name": "Ancient Dragons' Lightning Strike",
+  "image": "https://eldenring.fanapis.com/images/incantations/17f696c7ce7l0hynrwmh6d0r0rwk2.png",
+  "description": "A secret incantation of the capital's ancient dragon cult.",
+  "type": "Incantations",
+  "cost": 27,
+  "slots": 1,
+  "effects": "Summons red lightning that spreads from impact",
+  "requires": [
+    { "name": "Intelligence", "amount": 0 },
+    { "name": "Faith", "amount": 26 },
+    { "name": "Arcane", "amount": 0 }
+  ]
+}

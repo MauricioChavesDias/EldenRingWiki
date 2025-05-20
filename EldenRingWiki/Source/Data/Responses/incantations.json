@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "count": 2,
+  "data": [
+    {
+      "id": "17f696c7ce7l0hynrwmh6d0r0rwk2",
+      "name": "Ancient Dragons' Lightning Strike",
+      "image": "https://eldenring.fanapis.com/images/incantations/17f696c7ce7l0hynrwmh6d0r0rwk2.png",
+      "description": "A secret incantation of the capital's ancient dragon cult.",
+      "type": "Incantations",
+      "cost": 27,
+      "slots": 1,
+      "effects": "Summons red lightning that spreads from impact",
+      "requires": [
+        { "name": "Intelligence", "amount": 0 },
+        { "name": "Faith", "amount": 26 },
+        { "name": "Arcane", "amount": 0 }
+      ]
+    },
+    {
+      "id": "17f695ad891l0hynrxcposdnx7gy9h",
+      "name": "Aspects Of The Crucible: Horns",
+      "image": "https://eldenring.fanapis.com/images/incantations/17f695ad891l0hynrxcposdnx7gy9h.png",
+      "description": "One of the ancient Erdtree incantations.",
+      "type": "Incantations",
+      "cost": 30,
+      "slots": 1,
+      "effects": "creates shoulder horn to gore foes from a low stance.",
+      "requires": [
+        { "name": "Intelligence", "amount": 0 },
+        { "name": "Faith", "amount": 27 },
+        { "name": "Arcane", "amount": 0 }
+      ]
+    }
+  ]
+}

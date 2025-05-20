@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "count": 2,
+  "data": [
+    {
+      "id": "17f696e0685l0i0nblzy58h0qvewk",
+      "name": "All-knowing Greaves",
+      "image": "https://eldenring.fanapis.com/images/armors/17f696e0685l0i0nblzy58h0qvewk.png",
+      "description": "Greaves set with countless eyes and ears. Worn by Gideon Ofnir, the All-Knowing. Knowledge begins with the recognition of one's ignorance. The realization that the search for knowledge is unending. But when Gideon glimpsed into the will of Queen Marika, he shuddered in fear. At the end that should not be.",
+      "category": "Leg Armor",
+      "dmgNegation": [
+        { "name": "Phy", "amount": 7 },
+        { "name": "Strike", "amount": 6 },
+        { "name": "Slash", "amount": 7 },
+        { "name": "Pierce", "amount": 6 },
+        { "name": "Magic", "amount": 7 },
+        { "name": "Fire", "amount": 5 },
+        { "name": "Ligt", "amount": 5 },
+        { "name": "Holy", "amount": 5 }
+      ],
+      "resistance": [
+        { "name": "Immunity", "amount": 17 },
+        { "name": "Robustness", "amount": 29 },
+        { "name": "Focus", "amount": 13 },
+        { "name": "Vitality", "amount": 13 },
+        { "name": "Poise", "amount": 10 }
+      ],
+      "weight": 6.6
+    },
+    {
+      "id": "17f69515b49l0i0nbno079cqzlskebf",
+      "name": "All-knowing Armor",
+      "image": "https://eldenring.fanapis.com/images/armors/17f69515b49l0i0nbno079cqzlskebf.png",
+      "description": "Armor set with countless eyes and ears. Worn by Gideon Ofnir, the All-Knowing. Knowledge begins with the recognition of one's ignorance. The realization that the search for knowledge is unending. But when Gideon glimpsed into the will of Queen Marika, he shuddered in fear. At the end that should not be.",
+      "category": "Chest Armor",
+      "dmgNegation": [
+        { "name": "Phy", "amount": 12 },
+        { "name": "Strike", "amount": 11 },
+        { "name": "Slash", "amount": 13 },
+        { "name": "Pierce", "amount": 11 },
+        { "name": "Magic", "amount": 12 },
+        { "name": "Fire", "amount": 9 },
+        { "name": "Ligt", "amount": 10 },
+        { "name": "Holy", "amount": 8 }
+      ],
+      "resistance": [
+        { "name": "Immunity", "amount": 28 },
+        { "name": "Robustness", "amount": 46 },
+        { "name": "Focus", "amount": 21 },
+        { "name": "Vitality", "amount": 21 },
+        { "name": "Poise", "amount": 16 }
+      ],
+      "weight": 10.6
+    }
+  ]
+}

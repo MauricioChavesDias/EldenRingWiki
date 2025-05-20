@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "count": 2,
+  "data": [
+    {
+      "id": "17f69590896l0i1ul0hnmor8iyf9xd",
+      "name": "Ancestor Spirit",
+      "image": "https://eldenring.fanapis.com/images/bosses/17f69590896l0i1ul0hnmor8iyf9xd.png",
+      "description": "A glowing spirit that takes the form of a large deer, making it a menacing threat when charging at targets.",
+      "location": "Siofra River",
+      "drops": [
+        "13.000 Runes",
+        "Ancestral Follower Ashes"
+      ],
+      "healthPoints": "???"
+    },
+    {
+      "id": "17f69878c4al0i1ul0i7dsfou8igrk",
+      "name": "Ancient Hero Of Zamor",
+      "image": "https://eldenring.fanapis.com/images/bosses/17f69878c4al0i1ul0i7dsfou8igrk.png",
+      "description": "Noticeably agile, frost-made creature suceptible to magic attacks.",
+      "location": "Weeping Evergaol, Giant-Conquering Hero's Grave",
+      "drops": [
+        "5,400 Runes",
+        "Radagon's Scarseal",
+        "83,000 Runes",
+        "Zamor Curved Sword",
+        "Zamor Mask",
+        "Zamor Armor",
+        "Zamor Bracelets",
+        "Zamor Legwraps"
+      ],
+      "healthPoints": "2200"
+    }
+  ]
+}

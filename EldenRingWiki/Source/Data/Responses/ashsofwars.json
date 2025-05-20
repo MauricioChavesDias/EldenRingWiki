@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "count": 2,
+  "data": [
+    {
+      "id": "17f699db6b0l0hzn9xsxxwtgyfky3",
+      "name": "Ash Of War: Prelate's Charge",
+      "image": "https://eldenring.fanapis.com/images/ashes/17f699db6b0l0hzn9xsxxwtgyfky3.png",
+      "description": "This Ash of War grants an armament the Flame affinity and the following skill: Prelate's Charge: Slam armament into the ground to create a surge of flames, then charge in. Hold to continue the charge. Usable on large and colossal axes and hammers.",
+      "affinity": "Flame",
+      "skill": "Prelate's Charge"
+    },
+    {
+      "id": "17f69632311l0hzna19sl4rzmmvk4",
+      "name": "Ash Of War: Barrage",
+      "image": "https://eldenring.fanapis.com/images/ashes/17f69632311l0hzna19sl4rzmmvk4.png",
+      "description": "This Ash of War grants no affinity to an armament, but imparts the following skill: Barrage: Archery skill using a bow held horizontally. Ready the bow, then fire off a rapid succession of shots faster than the eye can see. Usable on light bows.",
+      "affinity": "Standard",
+      "skill": "Barrage"
+    }
+  ]
+}

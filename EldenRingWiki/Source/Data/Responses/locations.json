@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "count": 2,
+  "data": [
+    {
+      "id": "17f69c5a795l0i2m72bjeqbh713r3o",
+      "name": "Bridge Of Sacrifice",
+      "image": "https://eldenring.fanapis.com/images/locations/17f69c5a795l0i2m72bjeqbh713r3o.png",
+      "description": "A busy bridge swarming with iron-clad foes. Be prepared to engage in an array of melee, ranged and artillery attacks or attempt to push past them"
+    },
+    {
+      "id": "17f69869a3bl0i2m72p0sbjub568ch",
+      "name": "Church Of Elleh",
+      "image": "https://eldenring.fanapis.com/images/locations/17f69869a3bl0i2m72p0sbjub568ch.png",
+      "description": "Church of Elleh is a ruined building that hides a Site of Grace. The rooftop has caved in and offers no protection from the elements, and weeds are overtaking the walls, but this doesn't stop merchants from seeking what little shelter is on offer"
+    }
+  ]
+}

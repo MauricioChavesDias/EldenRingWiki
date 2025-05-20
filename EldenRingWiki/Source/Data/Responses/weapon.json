@@ -1,0 +1,32 @@
+{
+  "id": "17f695c42f0l0i1ohb4cao0qxackpu",
+  "name": "Forked Hatchet",
+  "image": "https://eldenring.fanapis.com/images/weapons/17f695c42f0l0i1ohb4cao0qxackpu.png",
+  "description": "Peculiar hatchet wielded by imps. The gently undulating forked blade is known as an imps tongue and causes blood loss",
+  "attack": [
+    { "name": "Phy", "amount": 101 },
+    { "name": "Mag", "amount": 0 },
+    { "name": "Fire", "amount": 0 },
+    { "name": "Ligt", "amount": 0 },
+    { "name": "Holy", "amount": 0 },
+    { "name": "Crit", "amount": 100 }
+  ],
+  "defence": [
+    { "name": "Phy", "amount": 40 },
+    { "name": "Mag", "amount": 27 },
+    { "name": "Fire", "amount": 27 },
+    { "name": "Ligt", "amount": 27 },
+    { "name": "Holy", "amount": 27 },
+    { "name": "Boost", "amount": 27 }
+  ],
+  "scalesWith": [
+    { "name": "Str", "scaling": "D" },
+    { "name": "Dex", "scaling": "D" }
+  ],
+  "requiredAttributes": [
+    { "name": "Str", "amount": 9 },
+    { "name": "Dex", "amount": 14 }
+  ],
+  "category": "Axe",
+  "weight": 2.5
+}
