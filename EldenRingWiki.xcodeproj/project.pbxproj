@@ -33,107 +33,108 @@
 		D5E9D1B22DDC4D7F00729078 /* Exceptions for "EldenRingWiki" folder in "EldenRingWiki" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Source/Data/Responses/ammos.json,
-				Source/Data/Responses/ashsofwars.json,
-				Source/Data/Responses/class.json,
+				Info.plist,
+				Resources/Data/Responses/ammos.json,
+				Resources/Data/Responses/ashesofwar.json,
+				Resources/Data/Responses/class.json,
 			);
 			target = D5E9D1722DDC4B9800729078 /* EldenRingWiki */;
 		};
 		D5E9D2A42DDC7AD000729078 /* Exceptions for "EldenRingWiki" folder in "EldenRingWikiTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Source/Data/Networks/Services/AmmosService.swift,
-				Source/Data/Networks/Services/ArmorsService.swift,
-				Source/Data/Networks/Services/AshOfWarsService.swift,
-				Source/Data/Networks/Services/BossesService.swift,
-				Source/Data/Networks/Services/CharacterClassesService.swift,
-				Source/Data/Networks/Services/CreaturesService.swift,
-				Source/Data/Networks/Services/IncantationsService.swift,
-				Source/Data/Networks/Services/ItemsService.swift,
-				Source/Data/Networks/Services/LocationsService.swift,
-				Source/Data/Networks/Services/NPCsService.swift,
-				Source/Data/Networks/Services/ShieldsService.swift,
-				Source/Data/Networks/Services/SorceriesService.swift,
-				Source/Data/Networks/Services/SpiritsService.swift,
-				Source/Data/Networks/Services/TalismansService.swift,
-				Source/Data/Networks/Services/WeaponsService.swift,
-				Source/Data/Repositories/AmmosRepository.swift,
-				Source/Data/Repositories/ArmorsRepository.swift,
-				Source/Data/Repositories/AshOfWarsRepository.swift,
-				Source/Data/Repositories/CharacterClassesRepository.swift,
-				Source/Data/Repositories/CreaturesRepository.swift,
-				Source/Data/Repositories/IncantationsRepository.swift,
-				Source/Data/Repositories/ItemsRepository.swift,
-				Source/Data/Repositories/LocationsRepository.swift,
-				Source/Data/Repositories/NPCsRepository.swift,
-				Source/Data/Repositories/ShieldsRepository.swift,
-				Source/Data/Repositories/SorceriesRepository.swift,
-				Source/Data/Repositories/SpiritsRepository.swift,
-				Source/Data/Repositories/TalismansRepository.swift,
-				Source/Data/Repositories/WeaponsRepository.swift,
-				Source/Domain/UseCases/AmmosUseCase.swift,
-				Source/Domain/UseCases/ArmorsUseCase.swift,
-				Source/Domain/UseCases/AshOfWarsUseCase.swift,
-				Source/Domain/UseCases/CharacterClassesUseCase.swift,
-				Source/Domain/UseCases/CreaturesUseCase.swift,
-				Source/Domain/UseCases/IncantationsUseCase.swift,
-				Source/Domain/UseCases/ItemsUseCase.swift,
-				Source/Domain/UseCases/LocationsUseCase.swift,
-				Source/Domain/UseCases/NPCsUseCase.swift,
-				Source/Domain/UseCases/ShieldsUseCase.swift,
-				Source/Domain/UseCases/SorceriesUseCase.swift,
-				Source/Domain/UseCases/SpiritsUseCase.swift,
-				Source/Domain/UseCases/TalismansUseCase.swift,
-				Source/Domain/UseCases/WeaponsUseCase.swift,
+				Resources/Data/Networks/Services/AmmosService.swift,
+				Resources/Data/Networks/Services/ArmorsService.swift,
+				Resources/Data/Networks/Services/AshOfWarsService.swift,
+				Resources/Data/Networks/Services/BossesService.swift,
+				Resources/Data/Networks/Services/ClassesService.swift,
+				Resources/Data/Networks/Services/CreaturesService.swift,
+				Resources/Data/Networks/Services/IncantationsService.swift,
+				Resources/Data/Networks/Services/ItemsService.swift,
+				Resources/Data/Networks/Services/LocationsService.swift,
+				Resources/Data/Networks/Services/NPCsService.swift,
+				Resources/Data/Networks/Services/ShieldsService.swift,
+				Resources/Data/Networks/Services/SorceriesService.swift,
+				Resources/Data/Networks/Services/SpiritsService.swift,
+				Resources/Data/Networks/Services/TalismansService.swift,
+				Resources/Data/Networks/Services/WeaponsService.swift,
+				Resources/Data/Repositories/AmmosRepository.swift,
+				Resources/Data/Repositories/ArmorsRepository.swift,
+				Resources/Data/Repositories/AshOfWarsRepository.swift,
+				Resources/Data/Repositories/CharacterClassesRepository.swift,
+				Resources/Data/Repositories/CreaturesRepository.swift,
+				Resources/Data/Repositories/IncantationsRepository.swift,
+				Resources/Data/Repositories/ItemsRepository.swift,
+				Resources/Data/Repositories/LocationsRepository.swift,
+				Resources/Data/Repositories/NPCsRepository.swift,
+				Resources/Data/Repositories/ShieldsRepository.swift,
+				Resources/Data/Repositories/SorceriesRepository.swift,
+				Resources/Data/Repositories/SpiritsRepository.swift,
+				Resources/Data/Repositories/TalismansRepository.swift,
+				Resources/Data/Repositories/WeaponsRepository.swift,
+				Resources/Domain/UseCases/AmmosUseCase.swift,
+				Resources/Domain/UseCases/ArmorsUseCase.swift,
+				Resources/Domain/UseCases/AshOfWarsUseCase.swift,
+				Resources/Domain/UseCases/CharacterClassesUseCase.swift,
+				Resources/Domain/UseCases/CreaturesUseCase.swift,
+				Resources/Domain/UseCases/IncantationsUseCase.swift,
+				Resources/Domain/UseCases/ItemsUseCase.swift,
+				Resources/Domain/UseCases/LocationsUseCase.swift,
+				Resources/Domain/UseCases/NPCsUseCase.swift,
+				Resources/Domain/UseCases/ShieldsUseCase.swift,
+				Resources/Domain/UseCases/SorceriesUseCase.swift,
+				Resources/Domain/UseCases/SpiritsUseCase.swift,
+				Resources/Domain/UseCases/TalismansUseCase.swift,
+				Resources/Domain/UseCases/WeaponsUseCase.swift,
 			);
 			target = D5E9D1832DDC4B9A00729078 /* EldenRingWikiTests */;
 		};
 		D5E9D2A52DDC7AD000729078 /* Exceptions for "EldenRingWiki" folder in "EldenRingWikiUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Source/Data/Networks/Services/AmmosService.swift,
-				Source/Data/Networks/Services/ArmorsService.swift,
-				Source/Data/Networks/Services/AshOfWarsService.swift,
-				Source/Data/Networks/Services/BossesService.swift,
-				Source/Data/Networks/Services/CharacterClassesService.swift,
-				Source/Data/Networks/Services/CreaturesService.swift,
-				Source/Data/Networks/Services/IncantationsService.swift,
-				Source/Data/Networks/Services/ItemsService.swift,
-				Source/Data/Networks/Services/LocationsService.swift,
-				Source/Data/Networks/Services/NPCsService.swift,
-				Source/Data/Networks/Services/ShieldsService.swift,
-				Source/Data/Networks/Services/SorceriesService.swift,
-				Source/Data/Networks/Services/SpiritsService.swift,
-				Source/Data/Networks/Services/TalismansService.swift,
-				Source/Data/Networks/Services/WeaponsService.swift,
-				Source/Data/Repositories/AmmosRepository.swift,
-				Source/Data/Repositories/ArmorsRepository.swift,
-				Source/Data/Repositories/AshOfWarsRepository.swift,
-				Source/Data/Repositories/CharacterClassesRepository.swift,
-				Source/Data/Repositories/CreaturesRepository.swift,
-				Source/Data/Repositories/IncantationsRepository.swift,
-				Source/Data/Repositories/ItemsRepository.swift,
-				Source/Data/Repositories/LocationsRepository.swift,
-				Source/Data/Repositories/NPCsRepository.swift,
-				Source/Data/Repositories/ShieldsRepository.swift,
-				Source/Data/Repositories/SorceriesRepository.swift,
-				Source/Data/Repositories/SpiritsRepository.swift,
-				Source/Data/Repositories/TalismansRepository.swift,
-				Source/Data/Repositories/WeaponsRepository.swift,
-				Source/Domain/UseCases/AmmosUseCase.swift,
-				Source/Domain/UseCases/ArmorsUseCase.swift,
-				Source/Domain/UseCases/AshOfWarsUseCase.swift,
-				Source/Domain/UseCases/CharacterClassesUseCase.swift,
-				Source/Domain/UseCases/CreaturesUseCase.swift,
-				Source/Domain/UseCases/IncantationsUseCase.swift,
-				Source/Domain/UseCases/ItemsUseCase.swift,
-				Source/Domain/UseCases/LocationsUseCase.swift,
-				Source/Domain/UseCases/NPCsUseCase.swift,
-				Source/Domain/UseCases/ShieldsUseCase.swift,
-				Source/Domain/UseCases/SorceriesUseCase.swift,
-				Source/Domain/UseCases/SpiritsUseCase.swift,
-				Source/Domain/UseCases/TalismansUseCase.swift,
-				Source/Domain/UseCases/WeaponsUseCase.swift,
+				Resources/Data/Networks/Services/AmmosService.swift,
+				Resources/Data/Networks/Services/ArmorsService.swift,
+				Resources/Data/Networks/Services/AshOfWarsService.swift,
+				Resources/Data/Networks/Services/BossesService.swift,
+				Resources/Data/Networks/Services/ClassesService.swift,
+				Resources/Data/Networks/Services/CreaturesService.swift,
+				Resources/Data/Networks/Services/IncantationsService.swift,
+				Resources/Data/Networks/Services/ItemsService.swift,
+				Resources/Data/Networks/Services/LocationsService.swift,
+				Resources/Data/Networks/Services/NPCsService.swift,
+				Resources/Data/Networks/Services/ShieldsService.swift,
+				Resources/Data/Networks/Services/SorceriesService.swift,
+				Resources/Data/Networks/Services/SpiritsService.swift,
+				Resources/Data/Networks/Services/TalismansService.swift,
+				Resources/Data/Networks/Services/WeaponsService.swift,
+				Resources/Data/Repositories/AmmosRepository.swift,
+				Resources/Data/Repositories/ArmorsRepository.swift,
+				Resources/Data/Repositories/AshOfWarsRepository.swift,
+				Resources/Data/Repositories/CharacterClassesRepository.swift,
+				Resources/Data/Repositories/CreaturesRepository.swift,
+				Resources/Data/Repositories/IncantationsRepository.swift,
+				Resources/Data/Repositories/ItemsRepository.swift,
+				Resources/Data/Repositories/LocationsRepository.swift,
+				Resources/Data/Repositories/NPCsRepository.swift,
+				Resources/Data/Repositories/ShieldsRepository.swift,
+				Resources/Data/Repositories/SorceriesRepository.swift,
+				Resources/Data/Repositories/SpiritsRepository.swift,
+				Resources/Data/Repositories/TalismansRepository.swift,
+				Resources/Data/Repositories/WeaponsRepository.swift,
+				Resources/Domain/UseCases/AmmosUseCase.swift,
+				Resources/Domain/UseCases/ArmorsUseCase.swift,
+				Resources/Domain/UseCases/AshOfWarsUseCase.swift,
+				Resources/Domain/UseCases/CharacterClassesUseCase.swift,
+				Resources/Domain/UseCases/CreaturesUseCase.swift,
+				Resources/Domain/UseCases/IncantationsUseCase.swift,
+				Resources/Domain/UseCases/ItemsUseCase.swift,
+				Resources/Domain/UseCases/LocationsUseCase.swift,
+				Resources/Domain/UseCases/NPCsUseCase.swift,
+				Resources/Domain/UseCases/ShieldsUseCase.swift,
+				Resources/Domain/UseCases/SorceriesUseCase.swift,
+				Resources/Domain/UseCases/SpiritsUseCase.swift,
+				Resources/Domain/UseCases/TalismansUseCase.swift,
+				Resources/Domain/UseCases/WeaponsUseCase.swift,
 			);
 			target = D5E9D18D2DDC4B9A00729078 /* EldenRingWikiUITests */;
 		};
@@ -144,9 +145,9 @@
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = D5E9D16F2DDC4B9800729078 /* Sources */;
 			membershipExceptions = (
-				Source/Data/Responses/ammos.json,
-				Source/Data/Responses/ashsofwars.json,
-				Source/Data/Responses/class.json,
+				Resources/Data/Responses/ammos.json,
+				Resources/Data/Responses/ashesofwar.json,
+				Resources/Data/Responses/class.json,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
@@ -524,6 +525,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EldenRingWiki/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -542,10 +544,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MauricioChavesDias.EldenRingWiki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -563,6 +566,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EldenRingWiki/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -581,10 +585,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MauricioChavesDias.EldenRingWiki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
