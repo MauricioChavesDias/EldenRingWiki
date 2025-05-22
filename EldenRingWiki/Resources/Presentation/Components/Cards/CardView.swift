@@ -8,33 +8,32 @@
 import SwiftUI
 
 struct CardView: View {
-    var card: CardItem
+    let card: CardItem
 
     var body: some View {
-        ZStack(alignment: .center) {
-            ZStack(alignment: .bottom) {
-                Image(card.image)
-                    .resizable()
-                    .scaledToFill()
-                    .cornerRadius(UIConstants.CornerRadius.card)
+        ZStack(alignment: .bottom) {
+            Image(card.image)
+                .resizable()
+                .scaledToFill()
+                .frame(width: UIConstants.Sizes.cardWidth, height: UIConstants.Sizes.cardHeight)
+                .clipped()
+                .cornerRadius(UIConstants.CornerRadius.card)
 
-                Text(card.title)
-                    .font(.subheadline)
-                    .bold()
-                    .foregroundColor(UIConstants.Colors.darkYellow)
-                    .lineLimit(1)
-                    .minimumScaleFactor(0.7)
-                    .padding(.bottom)
-                    .padding(.horizontal, UIConstants.Spacing.medium)
-            }
+            Text(card.title)
+                .font(.subheadline.bold())
+                .foregroundColor(UIConstants.Colors.darkYellow)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+                .padding(.horizontal, UIConstants.Spacing.medium)
+                .padding(.bottom)
         }
         .frame(width: UIConstants.Sizes.cardWidth, height: UIConstants.Sizes.cardHeight)
-        .opacity(0.9)
         .cornerRadius(UIConstants.CornerRadius.card)
     }
 }
 
 #Preview {
-    let card = CardItem.allCases.first { $0.title == StringConstants.Titles.incantations }!
-    CardView(card: card)
+    if let card = CardItem.allCases.first(where: { $0.title == StringConstants.Titles.incantations }) {
+        CardView(card: card)
+    }
 }
