@@ -28,4 +28,5 @@ enum StringConstants {
         static let imageLoadFailed = "Failed to load image"
         static let fileNotFound = "File not found"
     }
+    
 }

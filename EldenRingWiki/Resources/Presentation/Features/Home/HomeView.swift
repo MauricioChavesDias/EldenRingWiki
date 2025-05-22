@@ -31,10 +31,16 @@ struct HomeView: View {
             }
             .navigationTitle("Elden Ring")
         }
-//        .onAppear {
-//            //Use this to change settings from the navigationTitle
-//            UINavigationBar.appearance().largeTitleTextAttributes = [.font : UIFont(name:"Mantinia", size: 40)!, .foregroundColor: UIColor(.accentColor)]
-//        }
+        .onAppear {
+            if let customFont = UIFont(name: "Mantinia", size: 40) {
+                UINavigationBar.appearance().largeTitleTextAttributes = [
+                    .font: customFont,
+                    .foregroundColor: UIColor(.accentColor)
+                ]
+            } else {
+                print("⚠️ Font 'Mantinia' not found. Make sure it's added to the project and Info.plist.")
+            }
+        }
         .background(Image("background"))
         
   
