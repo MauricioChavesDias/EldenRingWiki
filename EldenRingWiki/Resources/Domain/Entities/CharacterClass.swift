@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - CharacterClass
 
-struct CharacterClass: Identifiable, Codable {
+struct CharacterClass: EldenRingEntity, Encodable {
     let id: String
     let name: String
     let image: String

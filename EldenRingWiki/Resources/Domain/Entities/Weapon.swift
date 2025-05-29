@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - Weapon
 
-struct Weapon: Identifiable, Codable {
+struct Weapon: EldenRingEntity, Encodable {
     let id: String
     let name: String
     let image: String

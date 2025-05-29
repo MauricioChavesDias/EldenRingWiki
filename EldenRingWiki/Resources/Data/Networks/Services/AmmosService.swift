@@ -29,6 +29,7 @@ class AmmosService {
         }
 
         guard let url = URL(string: APIConstants.baseURL + endpoint) else {
+            print("❌ File not found")
             return Fail(error: URLError(.badURL)).eraseToAnyPublisher()
         }
 

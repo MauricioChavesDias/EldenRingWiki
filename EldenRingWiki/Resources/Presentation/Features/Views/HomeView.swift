@@ -8,12 +8,9 @@
 import SwiftUI
 
 struct HomeView: View {
-    @State private var blur: CGFloat = 5.0
-    @State private var viewID = UUID()
-
-    let columnsLayout = [GridItem(.flexible()),
-                         GridItem(.flexible()),
-                         GridItem(.flexible())]
+    private let columnsLayout = [GridItem(.flexible()),
+                                 GridItem(.flexible()),
+                                 GridItem(.flexible())]
 
     var body: some View {
         NavigationStack {
@@ -26,41 +23,43 @@ struct HomeView: View {
                 ScrollView {
                     LazyVGrid(columns: columnsLayout, spacing: 10) {
                         ForEach(CardItem.allCases, id: \.self) { card in
-                            NavigationLink {
-                                Text(card.title)
-                            } label: {
+                            NavigationLink(destination: destinationView(for: card.selectedCard)) {
                                 CardView(card: card)
                                     .hoverEffect()
-                                    .blur(radius: blur)
                             }
                         }
                     }
-                    .padding(.top, 20)
-                    .padding(.trailing, 10)
-                    .padding(.leading, 10)
+                    .padding([.top, .horizontal])
                 }
                 .navigationTitle("Elden Ring")
             }
         }
         .onAppear {
-            // Update font styling (only needs to run once)
             if let customFont = UIFont(name: "Mantinia", size: 40) {
                 UINavigationBar.appearance().largeTitleTextAttributes = [
                     .font: customFont,
                     .foregroundColor: UIColor(.white)
                 ]
             }
-            
-            //apply effect once landing on the screen
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-                withAnimation(.easeOut(duration: 0.5)) {
-                    blur = 0
-                }
-            }
+        }
+    }
+
+    @ViewBuilder
+    private func destinationView(for type: CardItemType) -> some View {
+        let repositoryMap: [CardItemType: any AnyEntityRepository] = [
+            .ammos: AmmosRepository(service: AmmosService(networkService: NetworkService()))
+            // Add more mappings as you implement them
+        ]
+
+        if let _ = repositoryMap[type] {
+            let useCase = GetEntitiesUseCase(repositoryMap: repositoryMap)
+            let viewModel = DynamicListViewModel(type: type, useCase: useCase)
+            DynamicListView(viewModel: viewModel)
+        } else {
+            Text("Feature not implemented")
         }
     }
 }
-
 
 #Preview {
     HomeView()

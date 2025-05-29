@@ -7,7 +7,7 @@
 
 // MARK: - Boss
 
-struct Boss: IdentifiableItem {
+struct Boss: EldenRingEntity, Encodable {
     let id: String
     let name: String
     let image: String

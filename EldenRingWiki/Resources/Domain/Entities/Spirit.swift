@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - Spirit
 
-struct Spirit: Identifiable, Codable {
+struct Spirit: EldenRingEntity, Encodable {
     let id: String
     let name: String
     let image: String

@@ -7,7 +7,7 @@
 
 // MARK: - NPC
 
-struct NPC: Identifiable, Codable {
+struct NPC: EldenRingEntity, Encodable {
     let id: String
     let name: String
     let image: String

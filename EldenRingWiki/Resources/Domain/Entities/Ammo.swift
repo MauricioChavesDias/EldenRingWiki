@@ -1,13 +1,15 @@
-//
+
 //  Ammo.swift
 //  EldenRingWiki
 //
 //  Created by Mauricio Chaves Dias on 20/5/2025.
 //
 
+import Foundation
+
 // MARK: - Ammo
 
-struct Ammo: IdentifiableItem {
+struct Ammo: EldenRingEntity, Codable {
     struct AttackPower: Codable {
         let name: String
         let amount: Int
@@ -33,4 +35,3 @@ struct AmmoResponse: Codable {
 struct SingleAmmoResponse: Decodable {
     let data: Ammo?
 }
-

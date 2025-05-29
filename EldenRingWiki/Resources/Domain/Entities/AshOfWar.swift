@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - AshOfWar
 
-struct AshOfWar: Identifiable, Codable {
+struct AshOfWar: EldenRingEntity, Encodable {
     let id: String
     let name: String
     let image: String

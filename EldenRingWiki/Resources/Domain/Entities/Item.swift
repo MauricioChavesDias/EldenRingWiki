@@ -7,7 +7,7 @@
 
 // MARK: - GameItem
 
-struct Item: Identifiable, Codable {
+struct Item: EldenRingEntity, Encodable {
     let id: String
     let name: String
     let image: String

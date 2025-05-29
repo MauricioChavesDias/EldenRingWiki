@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - Sorcery
 
-struct Sorcery: Identifiable, Codable {
+struct Sorcery: EldenRingEntity, Encodable {
     let id: String
     let name: String
     let image: String

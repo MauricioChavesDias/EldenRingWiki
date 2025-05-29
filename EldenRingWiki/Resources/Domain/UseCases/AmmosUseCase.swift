@@ -10,13 +10,13 @@ import Foundation
 import Combine
 
 /// Protocol defining the use case for fetching ammos, supporting both API and local file sources.
-protocol AmmosUseCase {
+protocol AmmosUseCaseProtocol {
     func executeFetchAll(limit: Int, page: Int, name: String?, fromFile: Bool) -> AnyPublisher<[Ammo], Error>
     func executeFetchById(_ id: String, fromFile: Bool) -> AnyPublisher<Ammo, Error>
 }
 
 /// Default implementation of the AmmosUseCase that delegates to a repository.
-class AmmosUseCaseImpl: AmmosUseCase {
+class AmmosUseCase: AmmosUseCaseProtocol {
 
     private let repository: AmmosRepositoryProtocol
 

@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - Talisman
 
-struct Talisman: Identifiable, Codable {
+struct Talisman: EldenRingEntity, Encodable {
     let id: String
     let name: String
     let image: String

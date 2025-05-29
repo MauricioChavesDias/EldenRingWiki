@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - Incantation
 
-struct Incantation: Identifiable, Codable {
+struct Incantation: EldenRingEntity, Encodable {
     let id: String
     let name: String
     let image: String

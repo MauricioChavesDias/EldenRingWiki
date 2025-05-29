@@ -7,7 +7,7 @@
 
 // MARK: - Creature
 
-struct Creature: Identifiable, Codable {
+struct Creature: EldenRingEntity, Encodable {
     let id: String
     let name: String
     let image: String
